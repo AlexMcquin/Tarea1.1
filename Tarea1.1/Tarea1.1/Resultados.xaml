@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea1._1.Resultados">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label x:Name="titul" HorizontalTextAlignment="Center" TextColor="White" FontSize="28"/>
+            </Frame>
+
+            <Label  HorizontalTextAlignment="Center" x:Name="N1" TextColor="Black" FontSize="16"/>
+            <Label  HorizontalTextAlignment="Center" TextColor="Black" x:Name="signo" FontSize="16"/>
+            <Label  HorizontalTextAlignment="Center" x:Name="N2" TextColor="Black" FontSize="16"/>
+            <Label Text="=" HorizontalTextAlignment="Center" TextColor="Black" FontSize="16"/>
+            <Label  HorizontalTextAlignment="Center" x:Name="result" TextColor="Black" FontSize="16"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
